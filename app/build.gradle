@@ -11,8 +11,8 @@ android {
         applicationId "com.devicelabpro"
         minSdk 24
         targetSdk 34
-        versionCode 1
-        versionName "3.0"
+        versionCode 4
+        versionName "4.0"
     }
 
     buildFeatures {
@@ -45,6 +45,10 @@ dependencies {
 
     implementation "androidx.compose.material3:material3"
     implementation "androidx.compose.foundation:foundation"
+
+    implementation "androidx.lifecycle:lifecycle-runtime-compose:2.8.7"
+
+    implementation "com.github.PhilJay:MPAndroidChart:v3.1.0"
 
     debugImplementation "androidx.compose.ui:ui-tooling"
 }
